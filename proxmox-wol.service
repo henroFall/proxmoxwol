@@ -1,0 +1,12 @@
+[Unit]
+Description=Proxmox WOL Service
+After=network.target
+
+[Service]
+Type=simple
+Restart=always
+User=root
+ExecStart=/usr/bin/proxmox-wol.sh
+
+[Install]
+WantedBy=multi-user.target
