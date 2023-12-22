@@ -4,7 +4,7 @@ My version of a script &amp; service to trap WOL packets bound for proxmox VMs a
 
 Install Proxmox-wol:
 
-git clone https://github.com/henroFall/proxmox-wol
+git clone https://github.com/henroFall/proxmoxwol
 
 cd proxmox-wol
 
